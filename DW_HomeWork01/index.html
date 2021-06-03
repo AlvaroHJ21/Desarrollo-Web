@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alvaro Huaysara</title>
+    <link href="estilos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="container__titulo">
+            <h1 class="titulo">CALCULADORA IMC</h1>
+        </div>
+        <p class="descripcion">Para calcular su IMC ingrese los siguientes datos</p>
+        <div class="formulario">
+            <div class="formulario__altura">
+                <div class="container__imagenAltura">
+                    <img src="imagenAltura.png" class="imgAltura">
+                </div>
+                <input type="text" class="inputAltura formulario__input">
+                <label for="" class="labelAltura">Altura</label>
+                <label for="" class="labelcm">cm</label>
+            </div>
+            <div class="formulario__peso">
+                <div class="container__imagenPeso">
+                    <img src="imagenPeso.png" class="imgPeso">
+                </div>
+                <input type="text" class="inputPeso formulario__input">
+                <label for="" class="labelPeso">Peso</label>
+                <label for="" class="labelkg">kg</label>
+            </div>
+            <div class="formulario__calcular">
+                <button class="calcular boton3">CALCULAR</button>
+            </div>
+        </div>
+        <div class="container__resultado">
+            <h2 class="resultado__h2">RESULTADO</h2>
+            <div class="resultado">
+                <div class="container__imagenResultado">
+                    <img src="resultadoDefecto.png" class="imgResultado">
+                </div>
+                <div class="container__labelRes resultadoDef">
+                    <label for="" class="labelRes"><b>???</b></label>
+                    <label for="" class="labelRes"><b>???</b></label>
+                </div>
+                
+            </div>
+            <div class="container__imgTabla">
+                <img src="tabla.png" class="imgTabla">
+            </div>
+        </div>
+        <div class="fuente">
+            <label for="">Fuente: </label><a href="https://www.who.int/es/news-room/fact-sheets/detail/obesity-and-overweight" target="_blank">OMS(Organización Mundial de la Salud)</a>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
